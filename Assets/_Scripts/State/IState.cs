@@ -2,7 +2,7 @@ using Units;
 
 namespace States
 {
-    public abstract class StateBase
+    public abstract class IState
     {
         public abstract void EnterState(UnitMain unit);
 

@@ -1,6 +1,6 @@
 namespace States
 {
-    public abstract class BaseState : StateBase
+    public abstract class BaseState : IState
     {
         public abstract UnitStateType Type { get; }
         
